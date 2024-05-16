@@ -1,0 +1,221 @@
+body{
+    background-color: #62271b;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .everything{
+    float: right;
+    position: relative;
+    
+  }
+  
+  .white-block{
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    margin: auto;
+    float: left;
+    position: relative;
+    top: 15px;
+  }
+  
+  .blue-block{
+    height: 450px;
+    width: 270px;
+    background-color:#ff6600;
+    margin: auto;
+    float: left;
+    background: linear-gradient(#f5ae93 10%, #fa895c,#892e04 125%);
+  }
+  
+  .select-button{
+    width: 150px;
+    height: 40px;
+    border: 1.7px solid #ed3c06;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .select-button p{
+    text-align: center;
+    line-height: 15px;
+    color: #00A9FF;
+    font-size: .75em;
+    letter-spacing: 1.5px;
+  }
+  
+  .white-block p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  }
+  
+  .blue-block p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  .blue-block h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9em;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 5px;
+  }
+  
+  .dtwo{
+    font-size: 1.7em;
+    text-align: center;
+    color: #ff2f00;
+  }
+  
+  .text p{
+    color: #d2ab99;
+    opacity: .5;
+  }
+  .texts p{
+    color: #d2ab99;
+    opacity: .5;
+  }
+  
+  .price{
+    font-size: 6em;
+    text-align: center;
+    position: relative;
+    top: -50px;
+  }
+  
+  .dollars{
+    font-size: 3em;
+    position: relative;
+    top: -300px;
+    left: 60px;
+  }
+  
+  .permo{
+    font-size: 1.5em;
+    position: relative;
+    left: 150px;
+    top: -320px;
+  }
+  
+  .projects{
+    font-size: 1em;
+    width: 200px;
+    color: #99BAD2;
+    opacity: .5;
+    text-align: center;
+    margin: auto;
+    margin-top: -300px; 
+  }
+  
+  .texting p{
+    color: white;
+  }
+  
+  .pricer{
+    font-size: 3.7em;
+    position: relative;
+    top: -80px;
+  }
+  
+  .dollarz{
+    font-size: 1.5em;
+    position: relative;
+    left: -70px;
+    top: -370px;
+  }
+  
+  .permonth{
+    font-size:1em;
+    position: relative;
+    top: -375px;
+    left: 75px;
+  }
+  
+  .projectors{
+    font-size: .5em;
+    width: 400px;
+    color: white;
+    margin: auto;
+    margin-top: -350px;
+    margin-left: -65px;
+  }
+  
+  .select{
+    width: 150px;
+    height: 40px;
+    background-color: #ed4006;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1.5px solid #ff5900;
+  }
+  
+  .select p{
+    font-size: .4em;
+    color: #00A9FF;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+  }
+  
+  .one{
+    float: left;
+  }
+  .done{
+    text-align: center;
+    font-size: 1.7em;
+    color: #ff4800;
+  }
+  
+  .pricing{
+    font-size: 6em;
+    position: relative;
+    top: -50px;
+    left: 70px;
+  }
+  
+  .dollar{
+    font-size: 3em;
+    position: relative;
+    top: -300px;
+    left: 40px;
+  }
+  
+  .mo{
+    font-size: 1.5em;
+    position: relative; 
+    top: -320px;
+    left: 170px;
+  }
+  
+  .project{
+    font-size: 1em;
+    width: 500px;
+    margin: auto;
+    margin-top: -300px;
+    margin-left: 60px;
+  }
+  
+  .select-buttons{
+    width: 150px;
+    height: 40px;
+    border: 1.7px solid #06D4ED;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .select-buttons p{
+      color: #00A9FF;
+      opacity: 1;
+      text-align: center;
+      line-height: 15px;
+      font-size: .7em;
+      letter-spacing: 1.5px;
+  }

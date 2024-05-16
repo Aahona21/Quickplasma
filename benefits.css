@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(#fff, #ffb0b0);
+}
+body{
+  text-align: left;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  left: 20px;
+  padding: 20px;
+  background: rgb(220,20,60);
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: list-item;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 50px;
+}
+.active, nav ul li:hover
+{
+  background: #692a2a;
+  padding: 10px 10px;
+  border-radius: 2px;
+}
+.sec-0{
+  padding: 10px 60px;
+}
+.sec-1{
+  padding: 10px 60px;
+}
+.sec-2{
+  padding: 10px 60px;
+}
+.sec-3{
+  padding: 10px 60px;
+}
+.sec-4{
+  padding: 10px 60px;
+}
+.strap{
+  padding-left: 500px;
+  background: #dc143c;
+  color: #000;
+}
+/*.navbar{
+  display: flex;
+  align-items: center;
+  left: 20px;
+  padding: 20px;
+  background: rgb(220,20,60);
+}*/
+.body-2{
+  max-width: 1700px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+h1{
+  text-align: center;
+  color: #ff0000;
+}
+h1::before{
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #ff0000;
+  position: absolute;
+  left: 15%;
+  top: 33.5%;
+}
+h1::after{
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #ff0000;
+  position: absolute;
+  right: 15%;
+  top: 33.5%;
+}
+h2{
+  color: #ff3b3b;
+}
+.body-2{
+  padding-right: 85px;
+  padding-left: 85px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Merriweather:ital,wght@0,300;0,700;0,900;1,300;1,400;1,700;1,900&family=Poetsen+One&display=swap');
+        </style>
+    <style>
+        /* CSS styles for form */
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            width: 300px;
+            border: 1px solid #fa8989;
+            border-radius: 5px;
+            background-color: #d8c7c7;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], input[type="email"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #e8816c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #e77d6b;
+        }
+    </style>
+</head>
+<body>
+    <form action="process_donation.php" method="POST">
+        <h2>After Donation Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="OTP">Phone OTP from hospital/Blood bank:</label>
+        <input type="text" id="phone" name="OTP" >
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>

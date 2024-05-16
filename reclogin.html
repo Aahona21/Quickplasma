@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="reclogin.css">
+    <title>Animated 3D Navigation Menu Bar</title>
+</head>
+<body>
+        <div class="container">
+        <div class="navbar">
+            <div class="menu">
+                <h3 class="logo">WELCOME RECIPIENT!!</h3>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="main">
+                <header>
+                     
+                </header>
+            </div>
+        </div>
+        <div class="links">
+            <ul>
+                <li class="active">
+                    <a href="index.html" style="--i: 0.05s">Home</a>
+                </li>
+                <li>
+                    <a href="request.html" style="--i: 0.1s">Send Request</a>
+                </li>
+                <li>
+                    <a href="About.html" style="--i: 0.2s">About Us</a>
+                </li>
+                <li>
+                    <a href="contact.html" style="--i: 0.25s">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+         
+const hamburger_menu = document.querySelector(".hamburger-menu");
+const container = document.querySelector(".container");
+hamburger_menu.addEventListener("click", () => {
+    container.classList.toggle("active");
+})
+</script>
+</body>
+</html>

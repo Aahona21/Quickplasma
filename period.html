@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Period Tracker</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background */
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    color: #d32f2f; /* Red color */
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="date"],
+  input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px;
+    background-color: #d32f2f; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #b71c1c; /* Darker red */
+  }
+  #result {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff; /* White background */
+    color: #d32f2f; /* Red color */
+    border-radius: 5px;
+    border: 1px solid #d32f2f; /* Red border */
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Period Tracker</h2>
+  <form id="periodTrackerForm">
+    <label for="lastPeriodStart">Last Period Start Date:</label>
+    <input type="date" id="lastPeriodStart" required>
+    
+    <label for="cycleLength">Average Cycle Length (in days):</label>
+    <input type="number" id="cycleLength" min="1" required>
+    
+    <button type="button" onclick="calculateNextPeriod()">Calculate Next Period</button>
+  </form>
+  <div id="result"></div>
+</div>
+
+<script>
+  function calculateNextPeriod() {
+    var lastPeriodStart = document.getElementById('lastPeriodStart').value;
+    var cycleLength = document.getElementById('cycleLength').value;
+    var nextPeriodStart = new Date(lastPeriodStart);
+    nextPeriodStart.setDate(nextPeriodStart.getDate() + parseInt(cycleLength));
+    
+    document.getElementById('result').textContent = 'Your next period is expected to start on: ' + nextPeriodStart.toDateString();
+  }
+</script>
+</body>
+</html>

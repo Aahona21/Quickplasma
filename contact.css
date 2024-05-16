@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.centerdiv{
+  height: 300px;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #dc143c;
+}
+/*.inner-container{
+  width: 80%;
+  float: right;
+  background-color: #fff;
+  padding: 4px;
+}
+.inner-container h1{
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #ff0000;
+}*/
+/*.text{
+  font-size: 17px;
+  color: #8B0000;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}*/
+.inner-container{
+  text-align: center;
+  height: 50px;
+  padding-top: 32px;
+}
+.navback{
+  display: flex;
+  align-items: center;
+  left: 20px;
+  padding: 1px 10px;
+  background: #fff;
+  text-decoration: none;
+  color: #dc143c;
+}
+.navback:hover{
+    background: #0011ff;
+    color: #fff;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  height: 65px;
+  width: 65px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 63px;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+a i{
+  transition: all 0.3s linear;
+}
+a:hover i{
+  transform: scale(1.8);
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-instagram{
+  color: #8a3ab9;
+}
+.fa-twitter{
+  color: #00acee;
+}
+.fa-youtube{
+  color: #c4302b;
+}
+.fa-linkedin{
+  color: #0e76a8;
+}
+.fa-pinterest{
+  color: #c8232c;
+}
+body{
+  background-image: radial-gradient(#fff, #ffb0b0);
+}
+h1{
+  text-align: center;
+  color: #ff0000;
+}
+h1::before{
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #ff0000;
+  position: absolute;
+  left: 15%;
+  top: 33.5%;
+}
+h1::after{
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: #ff0000;
+  position: absolute;
+  right: 15%;
+  top: 33.5%;
+}
+h3{
+  color: #ff3b3b;
+}
